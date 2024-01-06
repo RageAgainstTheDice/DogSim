@@ -1,0 +1,45 @@
+breed_list = ['Affenpinscher', 'Afghan Hound', 'Africanis', 'Aidi', 'Airedale Terrier', 'Akbash', 'Akita',
+              'Aksaray Malaklisi', 'Alano Español', 'Alapaha Blue Blood Bulldog', 'Alaskan Husky',
+              'Alaskan Klee Kai', 'Alaskan Malamute', 'Alopekis', 'Alpine Dachsbracke', 'American Bulldog',
+              'American Bully', 'American Cocker Spaniel', 'American English Coonhound', 'American Eskimo Dog',
+              'American Foxhound', 'American Hairless Terrier', 'American Pit Bull Terrier',
+              'American Staffordshire Terrier', 'American Water Spaniel', 'Andalusian Hound',
+              'Anglo-Français de Petite Vénerie', 'Appenzeller Sennenhund', 'Ariegeois', 'Armant',
+              'Armenian Gampr', 'Artois Hound', 'Assyrian Mastiff', 'Australian Cattle Dog', 'Australian Kelpie',
+              'Australian Shepherd', 'Australian Stumpy Tail Cattle Dog', 'Australian Terrier',
+              'Austrian Black and Tan Hound', 'Austrian Pinscher', 'Azawakh', 'Bakharwal dog', 'Banjara Hound',
+              'Barbado da Terceira', 'Barbet', 'Basenji', 'Basque Shepherd Dog', 'Basset Artésien Normand',
+              'Basset Bleu de Gascogne', 'Basset Fauve de Bretagne', 'Basset Hound', 'Bavarian Mountain Hound',
+              'Beagle', 'Beagle-Harrier', 'Belgian Shepherd', 'Bearded Collie', 'Beauceron',
+              'Bedlington Terrier', 'Bergamasco Shepherd', 'Berger Picard', 'Bernese Mountain Dog', 'Bichon Frisé',
+              'Billy', 'Black and Tan Coonhound', 'Black Norwegian Elkhound', 'Black Russian Terrier',
+              'Black Mouth Cur', 'Bloodhound', 'Blue Lacy', 'Blue Picardy Spaniel', 'Bluetick Coonhound',
+              'Boerboel', 'Bohemian Shepherd', 'Bolognese', 'Border Collie', 'Border Terrier', 'Borzoi',
+              'Bosnian Coarse-haired Hound', 'Boston Terrier', 'Bouvier des Ardennes', 'Bouvier des Flandres',
+              'Boxer', 'Boykin Spaniel', 'Bracco Italiano', 'Braque d\'Auvergne', 'Braque de l\'Ariège',
+              'Braque du Bourbonnais', 'Braque Francais', 'Braque Saint-Germain', 'Briard', 'Briquet Griffon Vendéen',
+              'Brittany', 'Broholmer', 'Bruno Jura Hound', 'Brussels Griffon', 'Bucovina Shepherd Dog', 'Bull Arab',
+              'Bull Terrier', 'Bulldog', 'Bullmastiff', 'Bully Kutta', 'Burgos Pointer', 'Buryat-Mongolian Wolfhound',
+              'Ca de Bou', 'Ca Mè Mallorquí', 'Cairn Terrier', 'Calupoh', 'Campeiro Bulldog', 'Can de Chira',
+              'Can de Palleiro', 'Canaan Dog', 'Canadian Eskimo Dog', 'Cane Corso', 'Cane di Oropa',
+              'Cane Paratore', 'Cantabrian Water Dog', 'Cão da Serra de Aires', 'Cão de Castro Laboreiro',
+              'Cão de Gado Transmontano', 'Cão Fila de São Miguel', 'Cardigan Welsh Corgi',
+              'Carea Castellano Manchego', 'Carea Leonés', 'Carolina Dog', 'Carpathian Shepherd Dog',
+              'Catahoula Leopard Dog', 'Catalan Sheepdog', 'Caucasian Shepherd Dog', 'Cavalier King Charles Spaniel',
+              'Central Asian Shepherd Dog', 'Cesky Fousek', 'Cesky Terrier', 'Chesapeake Bay Retriever',
+              'Chien Français Blanc et Noir', 'Chien Français Blanc et Orange', 'Chien Français Tricolore',
+              'Chihuahua', 'Chilean Terrier', 'Chinese Crested Dog', 'Chinook', 'Chippiparai', 'Chongqing Dog',
+              'Chortai', 'Chow Chow', 'Chukotka Sled Dog', 'Cimarrón Uruguayo', 'Cirneco dell\'Etna',
+              'Clumber Spaniel', 'Colombian Fino Hound', 'Continental Bulldog', 'Coton de Tulear', 'Cretan Hound',
+              'Croatian Sheepdog', 'Curly-Coated Retriever', 'Cursinu', 'Czechoslovakian Wolfdog'
+              ]
+# note: incomplete (only covers A-C as of now)
+negative_responses = ['No', 'no', 'Nope', 'nope', 'Negative', 'negative', 'Nah', 'nah', 'N', 'n', 'Naw', 'naw',
+                      'Nay', 'nay', 'Nein', 'nein']
+affirmative_responses = ['Yes', 'yes', 'Yup', 'yup', 'Affirmative', 'affirmative', 'Yessir', 'yessir', 'Yeah',
+                         'yeah', 'Y', 'y', 'Ye', 'ye', 'Yuh', 'yuh', 'Yee', 'yee', 'Aye', 'aye', 'Yea', 'yea', 'Ja',
+                         'ja']
+valid_responses = affirmative_responses + negative_responses
+age_range = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18',
+             '19', '20']
+status_list = ['upright', 'sitting', 'reclining', 'asleep', 'exhausted']
